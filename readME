@@ -1,0 +1,12 @@
+link to refer web dev in pyhton using flask: https://youtu.be/Z1RJmh_OqeA
+git hub link for code: https://github.com/jakerieger/FlaskIntroduction/blob/master/templates/base.html
+
+what is a template inheritance??
+u create a master html file which is the  skeleton of what every page should look like. u just inherit that in other age and insert code where u need it. 
+
+
+This is JINJA 2 syntax. this the template engine flask uses. So, we are creating a block and template and this block is where we are going to insert our code where all other pages pages that inherit this template
+{% block head %}{% endblock %}
+
+Never write this statements with {{}} or {%%} inside html and comment them
+{{}} is used for printing and declaring stuff where as {%%} is used for for loops, if statements and all
